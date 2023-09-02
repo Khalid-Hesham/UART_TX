@@ -4,6 +4,6 @@ Implement the Uart hierarchically using separate modules:
 - Serializer
 - Parity_Calc
 - FSM
-- Mux\
+- Mux
   
 Use a clock frequency 200 MHz for testing
