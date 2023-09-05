@@ -23,6 +23,7 @@ wire            par_bit_uart;
 // Modules Instantiation
 Parity_Calc #(.DATA_WIDTH(DATA_WIDTH)) 
 Parity_Unit (
+    .Parity_Calc_CLK(CLK),
     .Parity_Calc_RST(RST),
     .P_DATA(P_DATA),
     .Data_Valid(DATA_VALID),
